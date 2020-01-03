@@ -54,3 +54,8 @@ background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
 The first argument specifies the direction from which color transition starts - it can be stated as a degree, where 90deg makes a vertical gradient and 45deg is angled like a backslash. The following arguments specify the order of colors used in the gradient.
 Example:
 background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
+
+03/01/20
+
+By manipulating different selectors and properties, you can make interesting shapes. One of the easier ones to try is a crescent moon shape. For this challenge you need to work with the box-shadow property that sets the shadow of an element, along with the border-radius property that controls the roundness of the element's corners.
+
