@@ -68,3 +68,34 @@ animation-name sets the name of the animation, which is later used by @keyframes
 animation-duration sets the length of time for the animation.
 
 @keyframes is how to specify exactly what happens within the animation over the duration. This is done by giving CSS properties for specific "frames" during the animation, with percentages ranging from 0% to 100%. If you compare this to a movie, the CSS properties for 0% is how the element displays in the opening scene. The CSS properties for 100% is how the element appears at the end, right before the credits roll. Then CSS applies the magic to transition the element over the given duration to act out the scene.
+
+''' <style>
+  div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+
+  #rect {
+    animation-name: rainbow; 
+    animation-duration: 4s;  
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-color: blue; 
+    }
+    50% {
+      background-color: green;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
+  }
+
+</style>
+<div id="rect"></div>
+'''
