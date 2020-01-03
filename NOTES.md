@@ -101,7 +101,7 @@ animation-duration sets the length of time for the animation.
 ```
 You can use CSS @keyframes to change the color of a button in its hover state.
 
-Here's an example of changing the colour of an image on hover:
+Here's an example of changing the background colour of the button element on hover:
 
 ``` 
 <style>
