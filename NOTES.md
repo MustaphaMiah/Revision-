@@ -129,3 +129,4 @@ Here's an example of changing the background colour of the button element on hov
 
 <button>Register</button>
 ```
+Another animation property is the animation-iteration-count, which allows you to control how many times you would like to loop through the animation. Here's an example:
