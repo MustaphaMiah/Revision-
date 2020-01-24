@@ -198,8 +198,9 @@ Here's an example - note that the figcaption goes inside the figure tags and can
   <img src="roundhouseDestruction.jpeg" alt="Photo of Camper Cat executing a roundhouse kick">
   <br>
   <figcaption>
-    Master Camper Cat demonstrates proper form of a roundhouse kick.
+    Master Camper Cat demonstrates a proper Muay Thai form of a roundhouse kick.
   </figcaption>
 </figure>
 ```
+
 
