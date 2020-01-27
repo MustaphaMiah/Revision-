@@ -227,3 +227,11 @@ Variables allow computers to store and manipulate data in a dynamic fashion. The
 Variables are similar to the x and y variables you use in mathematics, which means they're a simple name to represent the data we want to refer to. Computer variables differ from mathematical variables in that they can store different values at different times.
 
 In JavaScript we end statements with semicolons. Variable names can be made up of numbers, letters, and $ or _, but may not contain spaces or start with a number.
+
+In JavaScript, you can store a value in a variable with the assignment operator.
+
+myVariable = 5;
+
+This assigns the Number value 5 to myVariable.
+
+Assignment always goes from right to left. Everything to the right of the = operator is resolved before the value is assigned to the variable to the left of the operator. 
