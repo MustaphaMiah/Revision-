@@ -307,3 +307,9 @@ myVar = myVar / 5;
 Will divide myVar by 5. This can be rewritten as:
 
 myVar /= 5;
+
+Previously we have used the code
+
+var myName = "your name";
+
+"your name" is called a string literal. It is a string because it is a series of zero or more characters enclosed in single or double quotes.
