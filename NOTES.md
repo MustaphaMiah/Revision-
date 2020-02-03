@@ -405,3 +405,11 @@ Use Bracket Notation to Find the Nth-to-Last Character in a String:
 You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
 For example, you can get the value of the third-to-last letter of the var firstName = "Charles" string by using firstName[firstName.length - 3]
+
+*Store Multiple Values in one Variable using JavaScript Arrays*
+
+With JavaScript array variables, we can store several pieces of data in one place.
+
+You start an array declaration with an opening square bracket, end it with a closing square bracket, and put a comma between each entry, like this:
+
+var sandwich = ["peanut butter", "jelly", "bread"].
