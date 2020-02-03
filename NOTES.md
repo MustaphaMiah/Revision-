@@ -370,3 +370,9 @@ Watch out for spaces. Concatenation does not add spaces between concatenated str
 Sometimes you will need to build a string, Mad Libs style. By using the concatenation operator (+), you can insert one or more variables into a string you're building.
 
 Just as we can build a string over multiple lines out of string literals, we can also append variables to a string using the plus equals (+=) operator.
+
+You can find the length of a String value by writing .length after the string variable or string literal.
+
+"Alan Peter".length; // 10
+
+For example, if we created a variable var firstName = "Charles", we could find out how long the string "Charles" is by using the firstName.length property.
