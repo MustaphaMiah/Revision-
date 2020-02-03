@@ -436,6 +436,7 @@ Example
 var ourArray = [50,40,30];
 ourArray[0] = 15; // equals [15,40,30]
 ```
+_Access Multi-Dimensional Arrays With Indexes_
 
 One way to think of a multi-dimensional array, is as an array of arrays. When you use brackets to access your array, the first set of brackets refers to the entries in the outer-most (the first level) array, and each additional pair of brackets refers to the next level of entries inside.
 
