@@ -415,3 +415,16 @@ You start an array declaration with an opening square bracket, end it with a clo
 var sandwich = ["peanut butter", "jelly", "bread"].
 
 You can also nest arrays within other arrays, like this: [["Bulls", 23], ["White Sox", 45]]. This is also called a multi-dimensional array.
+
+We can access the data inside arrays using indexes.
+
+Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array. Like strings, arrays use zero-based indexing, so the first element in an array has an index of 0.
+
+
+
+Example
+```
+var array = [50,60,70];
+array[0]; // equals 50
+var data = array[1];  // equals 60
+```
