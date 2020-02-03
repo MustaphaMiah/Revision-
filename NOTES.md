@@ -382,3 +382,18 @@ Bracket notation is a way to get a character at a specific index within a string
 Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as Zero-based indexing.
 
 For example, the character at index 0 in the word "Charles" is "C". So if var firstName = "Charles", you can get the value of the first letter of the string by using firstName[0].
+
+In JavaScript, String values are immutable, which means that they cannot be altered once created.
+
+For example, the following code:
+
+```var myStr = "Bob";
+myStr[0] = "J";
+```
+
+cannot change the value of myStr to "Job", because the contents of myStr cannot be altered. Note that this does not mean that myStr cannot be changed, just that the individual characters of a string literal cannot be changed. The only way to change myStr would be to assign it with a new string, like this:
+
+```
+var myStr = "Bob";
+myStr = "Job";
+```
