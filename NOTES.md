@@ -406,10 +406,12 @@ You can use the same principle we just used to retrieve the last character in a 
 
 For example, you can get the value of the third-to-last letter of the var firstName = "Charles" string by using firstName[firstName.length - 3]
 
-*Store Multiple Values in one Variable using JavaScript Arrays*
+~Store Multiple Values in one Variable using JavaScript Arrays~
 
 With JavaScript array variables, we can store several pieces of data in one place.
 
 You start an array declaration with an opening square bracket, end it with a closing square bracket, and put a comma between each entry, like this:
 
 var sandwich = ["peanut butter", "jelly", "bread"].
+
+You can also nest arrays within other arrays, like this: [["Bulls", 23], ["White Sox", 45]]. This is also called a multi-dimensional array.
