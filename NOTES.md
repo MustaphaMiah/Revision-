@@ -428,3 +428,12 @@ var array = [50,60,70];
 array[0]; // equals 50
 var data = array[1];  // equals 60
 ```
+
+Unlike strings, the entries of arrays are mutable and can be changed freely.
+
+Example
+```
+var ourArray = [50,40,30];
+ourArray[0] = 15; // equals [15,40,30]
+```
+
