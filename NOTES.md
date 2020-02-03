@@ -455,7 +455,7 @@ arr[3]; // equals [[10,11,12], 13, 14]
 arr[3][0]; // equals [10,11,12]
 arr[3][0][1]; // equals 11
 
-### Manipulate Arrays With push()
+#### Manipulate Arrays With push()
 An easy way to append data to the end of an array is via the push() function.
 
 .push() takes one or more parameters and "pushes" them onto the end of the array.
@@ -466,3 +466,9 @@ arr.push(4);
 // arr is now [1,2,3,4]
 ```
 
+#### Manipulate Arrays With pop()
+Another way to change the data in an array is with the .pop() function.
+
+.pop() is used to "pop" a value off of the end of an array. We can store this "popped off" value by assigning it to a variable. In other words, .pop() removes the last element from an array and returns that element.
+
+Any type of entry can be "popped" off of an array - numbers, strings, even nested arrays.
