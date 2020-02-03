@@ -406,7 +406,7 @@ You can use the same principle we just used to retrieve the last character in a 
 
 For example, you can get the value of the third-to-last letter of the var firstName = "Charles" string by using firstName[firstName.length - 3]
 
-~Store Multiple Values in one Variable using JavaScript Arrays~
+_Store Multiple Values in one Variable using JavaScript Arrays_
 
 With JavaScript array variables, we can store several pieces of data in one place.
 
