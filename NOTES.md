@@ -523,7 +523,8 @@ console.log(loc); // loc is not defined
 
 loc is not defined outside of the function.
 
-Global vs. Local Scope in Functions
+#### Global vs. Local Scope in Functions
+
 It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable.
 
 In this example:
