@@ -506,3 +506,16 @@ Then we can call testFun: testFun("Hello", "World"); We have passed two argument
 In JavaScript, scope refers to the visibility of variables. Variables which are defined outside of a function block have Global scope. This means, they can be seen everywhere in your JavaScript code.
 
 Variables which are used without the var keyword are automatically created in the global scope. This can create unintended consequences elsewhere in your code or when running a function again. You should always declare your variables with var.
+
+#### Local Scope and Functions
+Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function.
+
+Here is a function myTest with a local variable called loc.
+
+function myTest() {
+  var loc = "foo";
+  console.log(loc);
+}
+myTest(); // logs "foo"
+console.log(loc); // loc is not defined
+loc is not defined outside of the function.
