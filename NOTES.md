@@ -406,7 +406,7 @@ You can use the same principle we just used to retrieve the last character in a 
 
 For example, you can get the value of the third-to-last letter of the var firstName = "Charles" string by using firstName[firstName.length - 3]
 
-_Store Multiple Values in one Variable using JavaScript Arrays_
+#### Store Multiple Values in one Variable using JavaScript Arrays
 
 With JavaScript array variables, we can store several pieces of data in one place.
 
@@ -416,7 +416,7 @@ var sandwich = ["peanut butter", "jelly", "bread"].
 
 You can also nest arrays within other arrays, like this: [["Bulls", 23], ["White Sox", 45]]. This is also called a multi-dimensional array.
 
-We can access the data inside arrays using indexes.
+#### We can access the data inside arrays using indexes.
 
 Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array. Like strings, arrays use zero-based indexing, so the first element in an array has an index of 0.
 
@@ -436,7 +436,7 @@ Example
 var ourArray = [50,40,30];
 ourArray[0] = 15; // equals [15,40,30]
 ```
-_Access Multi-Dimensional Arrays With Indexes_
+#### Access Multi-Dimensional Arrays With Indexes
 
 One way to think of a multi-dimensional array, is as an array of arrays. When you use brackets to access your array, the first set of brackets refers to the entries in the outer-most (the first level) array, and each additional pair of brackets refers to the next level of entries inside.
 
