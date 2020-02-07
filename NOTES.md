@@ -582,3 +582,10 @@ Write a function nextInLine which takes an array (arr) and a number (item) as ar
 Add the number to the end of the array, then remove the first element of the array.
 
 The nextInLine function should then return the element that was removed.
+
+#### Understanding Boolean Values
+Another data type is the Boolean. Booleans may only be one of two values: true or false. They are basically little on-off switches, where true is "on" and false is "off." These two states are mutually exclusive.
+
+Note
+Boolean values are never written with quotes. The strings "true" and "false" are not Boolean and have no special meaning in JavaScript.
+
