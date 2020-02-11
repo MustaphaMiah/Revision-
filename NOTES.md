@@ -646,3 +646,8 @@ Examples
 3 === '3'  // false
 ```
 In the second example, 3 is a Number type and '3' is a String type.
+
+#### In JavaScript, you can determine the type of a variable or a value with the typeof operator, as follows:
+
+typeof 3   // returns 'number'
+typeof '3' // returns 'string'
