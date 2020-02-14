@@ -451,9 +451,11 @@ var arr = [
 ];
 ```
 
+```
 arr[3]; // equals [[10,11,12], 13, 14]
 arr[3][0]; // equals [10,11,12]
 arr[3][0][1]; // equals 11
+```
 
 #### Manipulate Arrays With push()
 An easy way to append data to the end of an array is via the push() function.
@@ -486,20 +488,22 @@ Not only can you shift elements off of the beginning of an array, you can also u
 In JavaScript, we can divide up our code into reusable parts called functions.
 
 Here's an example of a function:
-
+```
 function functionName() {
   console.log("Hello World");
 }
+```
 You can call or invoke this function by using its name followed by parentheses, like this: functionName(); Each time the function is called it will print out the message "Hello World" on the dev console. All of the code between the curly braces will be executed every time the function is called.
 
 #### Passing Values to Functions with Arguments
 Parameters are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or "passed") into a function when it is called are known as arguments.
 
 Here is a function with two parameters, param1 and param2:
-
+```
 function testFun(param1, param2) {
   console.log(param1, param2);
 }
+```
 Then we can call testFun: testFun("Hello", "World"); We have passed two arguments, "Hello" and "World". Inside the function, param1 will equal "Hello" and param2 will equal "World". Note that you could call testFun again with different arguments and the parameters would take on the value of the new arguments.
 
 #### Global Scope and Functions
@@ -557,11 +561,12 @@ plusThree takes an argument for num and returns a value equal to num + 3.
 A function can include the return statement but it does not have to. In the case that the function doesn't have a return statement, when you call it, the function processes the inner code but the returned value is undefined.
 
 Example
-
+```
 var sum = 0;
 function addSum(num) {
   sum = sum + num;
 }
+```
 addSum(3); // sum will be modified but returned value is undefined
 addSum is a function without a return statement. The function will change the global sum variable but the returned value of the function is undefined.
 
@@ -815,3 +820,29 @@ if (condition1) {
   statementN
 }
 ```
+#### Golf Code
+
+```
+var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+function golfScore(par, strokes) {
+  // Only change code below this line
+   if (strokes == 1) {
+    return names[0]
+  } else if (strokes <= par - 2) {
+    return names[1]
+  } else if (strokes == par - 1) {
+    return names[2]
+  } else if (strokes == par) {
+    return names[3]
+  } else if (strokes == par + 1) {
+    return names[4]
+  } else if (strokes == par + 2) {
+    return names[5]
+  } else if (strokes >= par + 3) {
+    return names[6]
+  }
+}
+
+console.log(golfScore(4, 2));
+```
+
