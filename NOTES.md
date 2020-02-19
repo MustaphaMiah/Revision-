@@ -1,4 +1,4 @@
-# revision-
+# revision
 Revising HTML, CSS &amp; JavaScript
 
                                                                                           
@@ -846,7 +846,7 @@ function golfScore(par, strokes) {
 console.log(golfScore(4, 2));
 ```
 
-Selecting from Many Options with Switch Statements
+#### Selecting from Many Options with Switch Statements
 If you have many options to choose from, use a switch statement. A switch statement tests a value and can have many case statements which define various possible values. Statements are executed from the first matched case value until a break is encountered.
 
 Here is an example of a switch statement:
@@ -863,3 +863,23 @@ switch(lowercaseLetter) {
 ```
 
 case values are tested with strict equality (===). The break tells JavaScript to stop executing statements. If the break is omitted, the next statement will be executed.
+
+#### Adding a Default Option in Switch Statements
+In a switch statement you may not be able to specify all possible values as case statements. Instead, you can add the default statement which will be executed if no matching case statements are found. Think of it like the final else statement in an if/else chain.
+
+A default statement should be the last case.
+
+```
+switch (num) {
+  case value1:
+    statement1;
+    break;
+  case value2:
+    statement2;
+    break;
+...
+  default:
+    defaultStatement;
+    break;
+}
+```
