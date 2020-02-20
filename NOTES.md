@@ -1034,3 +1034,13 @@ function isEqual(a,b) {
   return a === b;
 }
 ```
+Example:
+```
+function isLess(a, b) {
+  return a < b; 
+}
+
+console.log(isLess(9, 15));
+
+true
+```
