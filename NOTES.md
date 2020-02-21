@@ -1073,8 +1073,10 @@ Count Change	Cards
 You will write a card counting function. It will receive a card parameter, which can be a number or a string, and increment or decrement the global count variable according to the card's value (see table). The function will then return a string with the current count and the string Bet if the count is positive, or Hold if the count is zero or negative. The current count and the player's decision (Bet or Hold) should be separated by a single space.
 
 Example Output
+```
 -3 Hold
 5 Bet
+```
 
 Hint
 Do NOT reset count to 0 when value is 7, 8, or 9.
@@ -1162,3 +1164,29 @@ function cc(card) {
 cc(2); cc('K'); cc(10); cc('K'); cc('A');
 console.log(cc(4))
 ```
+
+#### Build JavaScript Objects
+You may have heard the term object before.
+
+Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.
+
+Objects are useful for storing data in a structured way, and can represent real world objects, like a cat.
+
+Here's a sample cat object:
+```
+var cat = {
+  "name": "Whiskers",
+  "legs": 4,
+  "tails": 1,
+  "enemies": ["Water", "Dogs"]
+};
+```
+In this example, all the properties are stored as strings, such as - "name", "legs", and "tails". However, you can also use numbers as properties. You can even omit the quotes for single-word string properties, as follows:
+```
+var anotherObject = {
+  make: "Ford",
+  5: "five",
+  "model": "focus"
+};
+```
+However, if your object has any non-string properties, JavaScript will automatically typecast them as strings.
