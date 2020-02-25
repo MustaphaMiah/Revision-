@@ -1251,3 +1251,17 @@ var someProp = propPrefix("Name"); // someProp now holds the value 'propName'
 console.log(someObj[someProp]); // "John"
 ```
 Note that we do not use quotes around the variable name when using it to access the property because we are using the value of the variable, not the name.
+
+Example:
+``` 
+// Setup
+var testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+
+var playerNumber = 16;      
+var player = testObj[playerNumber];   
+```
