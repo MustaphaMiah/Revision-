@@ -216,7 +216,7 @@ The value of the for attribute must be the same as the value of the id attribute
   <input type="text" id="name" name="name">
 </form>
 
-JavaScript Revision 
+## JavaScript Revision 
 
 In computer science, data is anything that is meaningful to the computer. JavaScript provides seven different data types which are undefined, null, boolean, string, symbol, number, and object.
 
