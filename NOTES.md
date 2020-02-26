@@ -1278,4 +1278,18 @@ var ourDog = {
   "friends": ["everything!"]
 };
 ```
+### Add New Properties to a JavaScript Object
+
 Since he's a particularly happy dog, let's change his name to "Happy Camper". Here's how we update his object's name property: ourDog.name = "Happy Camper"; or ourDog["name"] = "Happy Camper"; Now when we evaluate ourDog.name, instead of getting "Camper", we'll get his new name, "Happy Camper".
+
+You can add new properties to existing JavaScript objects the same way you would modify them.
+
+Here's how we would add a "bark" property to ourDog:
+
+ourDog.bark = "bow-wow";
+
+or
+
+ourDog["bark"] = "bow-wow";
+
+Now when we evaluate ourDog.bark, we'll get his bark, "bow-wow".
