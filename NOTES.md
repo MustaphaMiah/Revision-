@@ -1323,3 +1323,8 @@ alpha[24]; // "C"
 var value = 2;
 alpha[value]; // "Y"
 ```
+*You can check if an Object has a property with the 
+
+```
+hasOwnProperty Method
+```
