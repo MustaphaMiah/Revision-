@@ -1,6 +1,6 @@
 # Debugging
 
-#### Catch Unclosed Parentheses, Brackets, Braces and Quotes
+### Catch Unclosed Parentheses, Brackets, Braces and Quotes
 
 Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, and quotes have a closing pair. Forgetting a piece tends to happen when you're editing existing code and inserting items with one of the pair types. Also, take care when nesting code blocks into others, such as adding a callback function as an argument to a method.
 
