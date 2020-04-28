@@ -6,3 +6,15 @@ The term AJAX originated as an acronym for Asynchronous JavaScript And XML. It r
 User experience benefits from asynchronous processes in several ways. Pages load faster since the browser isn't waiting for the server to respond in the middle of a page render. Requests and transfers happen in the background, without interrupting what the user is doing. When the browser receives new data, only the necessary area of the page refreshes. These qualities especially enhance the user experience for single page applications.
 
 The data transferred between the browser and server is often in a format called JavaScript Object Notation (JSON). JSON resembles JavaScript object literal syntax, except that it's transferred as a string. Once received, it can be converted into an object and used in a script.
+
+Handle Click Events with JavaScript using the onclick property
+You want your code to execute only once your page has finished loading. For that purpose, you can attach a JavaScript event to the document called DOMContentLoaded. Here's the code that does this:
+```
+document.addEventListener('DOMContentLoaded', function() {
+
+});
+```
+You can implement event handlers that go inside of the DOMContentLoaded function. You can implement an onclick event handler which triggers when the user clicks on the element with id getMessage, by adding the following code:
+```
+document.getElementById('getMessage').onclick = function(){};
+```
