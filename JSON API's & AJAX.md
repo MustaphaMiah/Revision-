@@ -118,3 +118,13 @@ json.forEach(function(val) {
 });
 ```
 Note: For this challenge, you need to add new HTML elements to the page, so you cannot rely on textContent. Instead, you need to use innerHTML, which can make a site vulnerable to Cross-site scripting attacks.
+
+### Render Images from Data Sources
+The last few challenges showed that each object in the JSON array contains an imageLink key with a value that is the URL of a cat's image.
+
+When you're looping through these objects, you can use this imageLink property to display this image in an img element.
+
+Here's the code that does this:
+
+html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>";
+
